@@ -1,0 +1,63 @@
+#Page4_Part6{
+    position: relative;
+    width: clamp(700px,100%,100%);
+    height: clamp(600px,100vh,753px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+#container_Page4_Part6{
+    width: clamp(700px,96vw,1980px);
+    height: clamp(600px,90vh,753px);
+    background-image: url(Wallpaper/ENd.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#First_footer{
+    width: clamp(700px,100%,100%);
+    height: clamp(300px,40vh,301px);
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+.Foot1{
+    width: 50vw;
+    height: 100%;
+    /* border: 2px solid red;    */
+}
+.Foot1 h1{
+    font-weight: 100;
+    margin-left: 2rem;
+    font-size: 2rem;
+    border-bottom: 2px solid #3a3a3a;
+    color: #ffffff;
+}
+
+#email{
+    border: none;
+}
+
+.Foot1 h1:nth-child(1){
+    width: clamp(160px,13vw,199px);
+}
+.Foot1 h1:nth-child(2){
+    width: clamp(130px,10vw,153px);
+}
+.Foot1 h1:nth-child(3){
+    width: clamp(150px,11vw,168px);
+}
+.Foot1 h1:nth-child(4){
+    width: clamp(200px,16vw,245px);
+}
+
+#container_footer{
+    width: clamp(700px,100%,1980px);
+    height: clamp(300px,40vh,301px);
+    display: flex;
+}

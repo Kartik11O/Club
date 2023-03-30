@@ -1,0 +1,62 @@
+#Page4_Part3{
+    position: relative;
+    width: clamp(700px,100%,100%);
+    height: clamp(600px,140vh,1055px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    /* border: 2px solid red; */
+}
+
+#container_Page4_Part3{
+    width: clamp(700px,100%,1980px);
+    height: clamp(600px,140vh,1055px);
+    display: flex;
+    align-items: center;
+   justify-content: start;
+   flex-direction: column;
+}
+
+#Headline_P4{
+    font-size: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 8rem;
+}
+
+.AllBoxs{
+    width: clamp(700px,90vw,1382px);
+    height: 85vh;
+    display: flex;
+}
+
+.AllParts{
+    width: clamp(700px,45vw,688px);
+    height: clamp(600px,100%,640px);
+}
+
+#Part1{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BOTdkZGEzYmUtODIxYi00MTUyLTgxM2QtMGYwODcxYjMyMTg0XkEyXkFqcGdeQXVyMjAzMjcxNTE@._V1_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Part2{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+
+#Part2_H{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+#Part2_H3{
+    margin-top: 0rem;
+    padding: 1px;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}

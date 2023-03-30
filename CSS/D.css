@@ -1,0 +1,43 @@
+#Page4_Part4{
+    position: relative;
+    width: clamp(700px,100%,100%);
+    height: clamp(600px,100vh,753px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+}
+
+#container_Page4_Part4{
+    width: clamp(700px,100%,1980px);
+    height: clamp(600px,100vh,753px);
+    display: flex;
+    align-items: center;
+   justify-content: start;
+   flex-direction: column;
+}
+
+#PartA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#PartB{
+    background-image: url(https://cdn.shopify.com/s/files/1/2117/2713/products/LIP329A_SPRAYBOXWASHEDBLACKTEE_grande.png?v=1673465561);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#H1_PartA{
+    font-size: 5rem;
+    width: clamp(600px,43vw,660px);
+    margin-bottom: 1rem;
+}
+
+#H3_PartB{
+    width: clamp(600px,43vw,660px);
+    font-size: 1.2rem;
+    margin-top: 0rem;
+}

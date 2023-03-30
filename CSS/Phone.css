@@ -1,0 +1,73 @@
+@media (max-width:600px) {
+    html{
+        font-size: 50%;
+    }
+    
+    #Part1 {
+        background-size: 103%;
+    }
+
+    #PartB {
+        background-size: 103%;
+    }
+
+    #Part2_H {
+        font-size: 6rem;
+    }
+
+    #Part2_H3 {
+        font-size: 2rem;
+    }
+
+    #H1_PartA {
+        font-size: 4.5rem;
+        width: clamp(300px,77vw,300px);
+    }
+
+    #H3_PartB {
+        font-size: 2rem;
+        width: 100%;
+        margin-left: 6rem;
+    }
+    #Page4_Part3 {
+        height: clamp(753px,100vh,753px);
+    }
+
+    #container_Page4_Part3 {
+        height: clamp(753px,100vh,753px);
+    }
+
+    #Page4_Part4 {
+        height: clamp(753px,100vh,753px);
+    }
+
+    #container_Page4_Part4 {
+        height: clamp(753px,100vh,753px);
+    }
+
+    #container_footer {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .Foot1 {
+        width: 50vw;
+        height: 50%;
+    }
+
+    #Part5_H4 {
+        font-size: 2.1rem;
+    }
+
+    #Part5_Headline2 {
+        font-size: 17rem;
+    }
+
+    #Part5_Headline {
+        font-size: 2.8rem;
+    }
+
+    #Btn1 {
+        font-size: 2.4rem;
+    }
+}
