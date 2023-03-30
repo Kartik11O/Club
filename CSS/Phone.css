@@ -16,7 +16,7 @@
     }
 
     #Part2_H3 {
-        font-size: 2rem;
+        /* font-size: 2rem; */
     }
 
     #H1_PartA {
@@ -25,7 +25,7 @@
     }
 
     #H3_PartB {
-        font-size: 2rem;
+        /* font-size: 2rem; */
         width: 100%;
         margin-left: 6rem;
     }
@@ -69,5 +69,9 @@
 
     #Btn1 {
         font-size: 2.4rem;
+    }
+
+    #container_Page4 h3 {
+        font-weight: 600;
     }
 }
