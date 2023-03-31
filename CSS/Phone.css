@@ -13,10 +13,13 @@
 
     #Part2_H {
         font-size: 6rem;
+        width: clamp(320px,85vw,331px);
     }
 
     #Part2_H3 {
-        /* font-size: 2rem; */
+        font-size: 2rem;
+        font-weight: 300;
+        width: clamp(310px,82vw,320px);
     }
 
     #H1_PartA {
@@ -28,6 +31,7 @@
         /* font-size: 2rem; */
         width: 100%;
         margin-left: 6rem;
+        font-weight: 300;
     }
     #Page4_Part3 {
         height: clamp(753px,100vh,753px);
@@ -72,7 +76,6 @@
     }
 
     #container_Page4 h3 {
-           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-           font-size: 2rem;
+        font-weight: 200;
     }
 }
