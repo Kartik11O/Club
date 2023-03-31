@@ -24,13 +24,13 @@
 
     #H1_PartA {
         font-size: 4.5rem;
-        width: clamp(300px,77vw,300px);
+        width: clamp(317px,77vw,317px);
     }
 
     #H3_PartB {
-        /* font-size: 2rem; */
+        font-size: 2rem;
         width: 100%;
-        margin-left: 6rem;
+        margin-left: 5rem;
         font-weight: 300;
     }
     #Page4_Part3 {
@@ -60,6 +60,7 @@
     }
 
     #Part5_H4 {
+        font-weight: 300;
         font-size: 2.1rem;
     }
 
@@ -77,5 +78,10 @@
 
     #container_Page4 h3 {
         font-weight: 200;
+        font-size: 1.3rem
+    }
+
+    #nav-bar{
+        display: none;
     }
 }

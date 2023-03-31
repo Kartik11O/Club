@@ -2,6 +2,13 @@ body{
     padding: 0rem;
     margin: 0rem;
     box-sizing: border-box;
+    animation: body 3s both;
+}
+@keyframes body {
+    0%{
+        opacity: 0;
+    }
+    
 }
 #Page4{
     position: relative;
