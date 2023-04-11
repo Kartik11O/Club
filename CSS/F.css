@@ -1,6 +1,6 @@
 #Page4_Part6{
     position: relative;
-    width: clamp(700px,100%,100%);
+    width: clamp(300px,100%,100%);
     height: clamp(600px,100vh,753px);
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 #container_Page4_Part6{
-    width: clamp(700px,96vw,1980px);
+    width: clamp(300px,96vw,1980px);
     height: clamp(600px,90vh,753px);
     background-image: url(Wallpaper/ENd.jpg);
     background-position: center;
@@ -18,7 +18,7 @@
 }
 
 #First_footer{
-    width: clamp(700px,100%,100%);
+    width: clamp(300px,100%,100%);
     height: clamp(300px,40vh,301px);
     background-color: #000;
     display: flex;
@@ -44,20 +44,20 @@
 }
 
 .Foot1 h1:nth-child(1){
-    width: clamp(160px,13vw,199px);
+    width: clamp(130px,13vw,199px);
 }
 .Foot1 h1:nth-child(2){
-    width: clamp(130px,10vw,153px);
+    width: clamp(110px,10vw,153px);
 }
 .Foot1 h1:nth-child(3){
-    width: clamp(150px,11vw,168px);
+    width: clamp(120px,11vw,168px);
 }
 .Foot1 h1:nth-child(4){
-    width: clamp(200px,16vw,245px);
+    width: clamp(140px,16vw,245px);
 }
 
 #container_footer{
-    width: clamp(700px,100%,1980px);
+    width: clamp(300px,100%,1980px);
     height: clamp(300px,40vh,301px);
     display: flex;
 }

@@ -2,25 +2,25 @@ body{
     padding: 0rem;
     margin: 0rem;
     box-sizing: border-box;
-    animation: body 3s both;
+    background-color: #000;
 }
-@keyframes body {
-    0%{
-        opacity: 0;
-    }
-    
+
+#Page4_Main{
+    background-color: #fff;
 }
+
 #Page4{
     position: relative;
-    width: clamp(700px,100%,100%);
+    width: clamp(300px,100%,100%);
     height: clamp(600px,100vh,753px);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 #container_Page4{
-    width: clamp(700px,100%,1980px);
+    width: clamp(300px,100%,1980px);
     height: clamp(600px,100vh,753px);
     display: flex;
     justify-content: center;
@@ -29,9 +29,8 @@ body{
 }
 
 #nav-bar{
-    position: absolute;
-    top: 0;
-    width: clamp(700px,100%,100%);
+    position: relative;
+    width: clamp(300px,100%,100%);
     height: clamp(86px,12vh,86px);
     display: flex;
     justify-content: space-between;
@@ -91,7 +90,7 @@ body{
 #container_Page4 h3{
     font-family: var(--font);
     font-size: 1.3rem;    
-    width: clamp(400px,71vw,1090px);
+    width: clamp(300px,71vw,1090px);
     text-align: center;
 
 }

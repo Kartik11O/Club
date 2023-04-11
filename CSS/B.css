@@ -1,6 +1,6 @@
 #Page4_Part2{
     position: relative;
-    width: clamp(700px,100%,100%);
+    width: clamp(300px,100%,100%);
     height: clamp(600px,120vh,904px);
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@
 }
 
 #container_Page4_Part2{
-    width: clamp(700px,100%,1980px);
+    width: clamp(300px,100%,1980px);
     height: clamp(600px,120vh,904px);
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
 }
 
 #Img_box{
-    width: clamp(700px,84vw,1290px);
+    width: clamp(300px,84vw,1290px);
     height: clamp(730px,97vh,730px);
     background-image: url(Wallpaper/C2.jpg);
     background-position: center;

@@ -3,12 +3,16 @@
         font-size: 50%;
     }
     
+    #box1{
+        flex-direction: column-reverse;
+    }
+
     #Part1 {
         background-size: 103%;
     }
 
     #PartB {
-        background-size: 103%;
+        background-size: cover;
     }
 
     #Part2_H {
@@ -29,8 +33,7 @@
 
     #H3_PartB {
         font-size: 2rem;
-        width: 100%;
-        margin-left: 5rem;
+        width: clamp(312px,92%,312px);
         font-weight: 300;
     }
     #Page4_Part3 {
@@ -60,12 +63,12 @@
     }
 
     #Part5_H4 {
-        font-weight: 300;
         font-size: 2.1rem;
     }
 
     #Part5_Headline2 {
-        font-size: 17rem;
+        font-size: 15rem;
+        text-align: center;
     }
 
     #Part5_Headline {
@@ -76,13 +79,32 @@
         font-size: 2.4rem;
     }
 
-    #container_Page4 h3 {
-        font-weight: 300;
-        font-size: 2.3rem;
-        width: clamp(500px,90%,630px);
-    }
-
     #nav-bar{
         display: none;
     }
+
+    #NavPhone23{
+        display: block !important;
+    }
+
+    #container_Page4 h1 {
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    #container_Page4 h3 {
+        font-size: 1.6rem;
+        width: clamp(366px,94vw,366px);
+    }
+
+    #Headline_P4 {
+        font-size: 7rem;
+    }
+
+    .AllBoxs {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

@@ -1,6 +1,6 @@
 #Page4_Part3{
     position: relative;
-    width: clamp(700px,100%,100%);
+    width: clamp(300px,100%,100%);
     height: clamp(600px,140vh,1055px);
     display: flex;
     justify-content: center;
@@ -10,7 +10,7 @@
 }
 
 #container_Page4_Part3{
-    width: clamp(700px,100%,1980px);
+    width: clamp(300px,100%,1980px);
     height: clamp(600px,140vh,1055px);
     display: flex;
     align-items: center;
@@ -25,13 +25,13 @@
 }
 
 .AllBoxs{
-    width: clamp(700px,90vw,1382px);
+    width: clamp(300px,90vw,1382px);
     height: 85vh;
     display: flex;
 }
 
 .AllParts{
-    width: clamp(700px,45vw,688px);
+    width: clamp(337px,45vw,688px);
     height: clamp(600px,100%,640px);
 }
 
