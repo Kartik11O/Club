@@ -93,6 +93,7 @@
     }
 
     #container_Page4 h3 {
+        font-weight: 400;
         font-size: 1.6rem;
         width: clamp(366px,94vw,366px);
     }
