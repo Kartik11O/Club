@@ -7,6 +7,8 @@ body{
 
 #Page4_Main{
     background-color: #fff;
+    width: clamp(300px,100%,100%);
+    height: clamp(300px,100%,100%);
 }
 
 #Page4{
@@ -31,7 +33,7 @@ body{
 #nav-bar{
     position: relative;
     width: clamp(300px,100%,100%);
-    height: clamp(86px,12vh,86px);
+    height: clamp(30px,12vh,86px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,7 +42,7 @@ body{
     z-index: 99;
 }
 .box_1_nav{
-    width: 30%;
+    width: clamp(300px,30%,455px);
     height: 100%;
     display: flex;
     justify-content: space-evenly;
@@ -56,15 +58,14 @@ body{
     width: 35%;
     height: 100%;
     text-align: center;
-    font-size: 1.5rem;
-    /* border: 2px solid red; */
+    font-size: 1.5rem; 
 }
 .box_2_nav h2{
     margin-bottom: auto;
 }
 .box_2_nav a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 .box_3_nav{
     width: 30%;
@@ -97,7 +98,7 @@ body{
 
 #Btn1{
     width: clamp(180px,13vw,186px);
-    height: clamp(70px,10vh,73px);
+    height: clamp(30px,10vh,73px);
     font-size: 1.4rem;
     color: #fff;
     border: none;
