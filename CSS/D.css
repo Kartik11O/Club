@@ -1,7 +1,7 @@
 #Page4_Part4{
     position: relative;
     width: clamp(300px,100%,100%);
-    height: clamp(600px,100vh,753px);
+    height: clamp(300px,100vh,753px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +10,7 @@
 
 #container_Page4_Part4{
     width: clamp(300px,100%,1980px);
-    height: clamp(600px,100vh,753px);
+    height: clamp(300px,100vh,753px);
     display: flex;
     align-items: center;
    justify-content: start;

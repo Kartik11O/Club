@@ -3,7 +3,7 @@
         font-size: 50%;
     }
     
-    #box1{
+    #Box1{
         flex-direction: column-reverse;
     }
 
@@ -95,7 +95,7 @@
     #container_Page4 h3 {
         font-weight: 400;
         font-size: 1.6rem;
-        width: clamp(366px,94vw,366px);
+        width: clamp(300px,94vw,366px);
     }
 
     #Headline_P4 {
