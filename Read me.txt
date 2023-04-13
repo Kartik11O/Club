@@ -1,4 +1,15 @@
-problem font on phone(solved)
+1. Change the width for phone view from (width:600px) to (width:300px)
 
-added Phone Mode
+2. Added the landscape mode and change the height form (height:700px) to (height:300px)
 
+3. Added the Navbar for Phone view in both view mode of Phone
+
+4. Fix the NavBar issue (Now Navbar has it's own container {position: reletive}  )
+
+5. Change BTN height width to make website more stable
+
+6. Website has all the links conntected to each other
+
+7. Fix the Font issue in Landscape Mode 
+
+--END
